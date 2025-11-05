@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class palabras {
     private String[] words = {
-            "gato", "perro", "computadora", "montaña", "programacion", "universo",
+            "gato", "perro", "ordenador", "montaña", "programacion", "universo",
             "sol", "luna", "estrella", "coche", "bicicleta", "tigre", "ventana",
             "avion", "ciudad", "mariposa", "pirata", "magia", "espada", "dragon",
             "castillo", "robot", "nube", "fuego", "agua", "piedra", "bosque",
@@ -13,7 +13,7 @@ public class palabras {
     private Random random = new Random();
 
     public String obteinRandomWord() {
-        int index = random.nextInt(words.length);
-        return words[index];
+        int list = random.nextInt(words.length);
+        return words[list];
     }
 }
