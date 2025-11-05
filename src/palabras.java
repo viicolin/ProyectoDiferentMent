@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class palabras {
-    private String[] words = {
+    private String[] palabras = {
             "gato", "perro", "ordenador", "montaña", "programacion", "universo",
             "sol", "luna", "estrella", "coche", "bicicleta", "tigre", "ventana",
             "avion", "ciudad", "mariposa", "pirata", "magia", "espada", "dragon",
@@ -12,8 +12,8 @@ public class palabras {
 
     private Random random = new Random();
 
-    public String obteinRandomWord() {
-        int list = random.nextInt(words.length);
-        return words[list];
+    public String obtenerPalabraAleatoria() {
+        int lista = random.nextInt(palabras.length);
+        return palabras[lista];
     }
 }

@@ -1,8 +1,9 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
 public class Main {
     public static void main(String[] args) {
-        String mensaje = "Hellow World";
-        System.out.println(mensaje);
+
     }
 }
