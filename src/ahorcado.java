@@ -10,7 +10,7 @@ public class ahorcado {
     };
 
     public void mostrarAhorcado(int errores) {
-        String[] dibujo = base.clone(); // copiamos la base
+        String[] dibujo = base.clone();
 
         if (errores >= 1) dibujo[2] = " O   |";
         if (errores == 2) dibujo[3] = " |   |";
